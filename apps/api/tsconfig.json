@@ -19,7 +19,8 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "strict": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+        "useUnknownInCatchVariables": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test"]
